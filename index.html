@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style_dsi_.css">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="../rasmlar/photo_2021-10-03_09-08-53.jpg">
+</head>
+
+<body>
+    <div class="element"></div>
+    <div class="container">
+        <header>
+            <div class="text">
+                <div class="dsi_text">
+                    <div class="box_img"><img src="../figma/DSI.png" alt=""></div>
+
+                    <div class="box_text">
+                        <p>DWIDASA <br>SAMSARA <br>INDONESIA</p>
+                    </div>
+                </div>
+                <div class="bars_close">
+                    <h3>services</h3>
+                    <h3>Product</h3>
+                    <h3>Technology</h3>
+                    <h3>About </h3>
+                    <h3>Clinet</h3>
+                    <h3>Partner</h3>
+                </div>
+                <div class="bars_a_close">
+                    <h4 class="bars">
+                        <div class="bars1"></div>
+                        <div class="bars2"></div>
+                        <div class="bars3"></div>
+                        <h4 class="close">
+                            <div class="close1"></div>
+                            <div class="close2"></div>
+                        </h4>
+                </div>
+                <div class="img_box">
+                    <img src="../figma/Union.png" alt="">
+                    <img src="../figma/Union.png" alt="">
+                    <img src="../figma/Union.png" alt="">
+                </div>
+            </div>
+            <div class="hed">
+                <div class="header_text">
+                    <h1>Making the most of the <br> ever-growing <br>
+                    </h1>
+                    <h2>Information Technology</h2>
+                    <p>Managed by a team of professional experts with extensive <br> experience and impressive track
+                        records</p>
+                    <button>Read More</button>
+                </div>
+                <div class="box1">
+                    <img src="../rasmlar/photo_2021-10-03_09-08-58.jpg" alt="">
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="main">
+                <div class="main_box"><img src="../rasmlar/photo_2021-10-04_08-26-13.jpg" alt=""></div>
+                <div class="main_text">
+                    <h1>Welcome to Dwidasa Samsara <br> Indonesia (DSI)</h1>
+                    <p>Dwidasa Samsara Indonesia (DSI) was firstly established in 2010 by the founders, who each of them
+                        has a common end objective to innovate new creations by making the most of the ever-growing
+                        information technology through DSI’s distinct front-end based application concept.
+                        Managed by a team of professional experts with extensive experience and impressive track
+                        records, DSI believes that continuous improvements and innovations assure your business to run
+                        effectively and efficiently.</p>
+                </div>
+            </div>
+            <h1>Product and Service</h1>
+        </main>
+        <footer>
+            <div class="footer">
+                <div class="box">
+                    <img src="../figma/product-description 1.png" alt="">
+                    <h2>Our Product</h2>
+                    <p>Our product is made on the base of <br> our team’s careful research and <br> analyses, ranging
+                        from internet based <br> application.</p>
+                    <button>Read More</button>
+                </div>
+                <div class="box">
+                    <img src="../figma/verified 1.png" alt="">
+                    <h2>Our Services</h2>
+                    <p>DSI’s shared service solutions <br> focus on the front-end based software <br> development,
+                        designed <br> specifically for the banking <br> and financial sectors.
+                    </p>
+                    <button>Read More</button>
+                </div>
+                <div class="box">
+                    <img src="../figma/cogwheel 1.png" alt="">
+                    <h2>Our Technology</h2>
+                    <p>First JAVA, runs on more than 850 million personal <br> computers worldwide, and on <br> billions
+                        of devices worldwide, <br> including mobile and TV devices.</p>
+                    <button>Read More</button>
+                </div>
+            </div>
+            <div class="footer_box">
+                <div class="box_img"><img src="../figma/DSI.png" alt=""></div>
+                <div class="box_text">
+                    <p>DWIDASA <br>SAMSARA <br>INDONESIA</p> <br>
+                    <h2>PT Dwidasa Samsara Indonesia
+                        <h4>Ruko Jalur Sutera 29A No. 53 <br>
+                            Alam Sutera Serpong, Tangerang 15323
+                        </h4>
+                    </h2>
+                </div>
+                <div class="contack">
+                    <h3>
+                        Contack <br>
+                        <p>Phone : +62.21.5314.1135<br>
+                            Fax : +62.21.5314.1135<br>
+                            Email : community@dwidasa.com</p>
+                    </h3>
+                </div>
+            </div>
+            <div class="box_footer">
+                <h3>Copyright © 2015 - Dwidasa Samsara Indonesia</h3>
+            </div>
+        </footer>
+    </div>
+    <script>
+        // let obj = {ism: "Uchqun", age: 25, familya: "Turidev",kasb: "web programmist"};
+
+        // let string = (JSON.stringify(obj)); /// bu kod STRING qilish uchun
+
+        // console.log(JSON.parse(string)); /// bu kod  OBJEKT qilish uchun
+
+        // let arr = ["Uchqun", "Eldor","Farrux","Davron","Ozod","Alibek"];
+
+        // console.log(arr.sort().reverse());
+
+        // let raqam = [5,1,7,88,33,55,4,12,56,4];
+        // let natija = raqam.sort(function (a,b){  /// ANANIM FUNCTION nomi sababi function nomi yoq 
+        //     return a-b;
+        // })
+        // console.log(natija);
+
+        // ;
+
+
+        const bars = document.querySelector('.bars'),
+            bars_close = document.querySelector('.bars_close'),
+            close = document.querySelector('.close');
+
+        bars.addEventListener('click', () => {
+            bars_close.classList.toggle('click');
+            bars.style.display = 'none';
+            close.style.display = 'block';
+        })
+        close.addEventListener('click', () => {
+            bars_close.classList.remove('click');
+            close.style.display = 'none';
+            bars.style.display = 'block';
+
+        })
+
+        // const element = document.querySelector('.element');
+
+        // setTimeout(() =>{
+        //     element.style.opacity = '0';
+        //     setTimeout(() => {
+        //         element.style.display = 'none';
+        //     }, 30000)
+        // }, 20000)
+
+        // import Typed from 'typed.js';
+
+        // var options = {
+        //   strings: ['<i>First</i> sentence.', '&amp; a second sentence.'],
+        //   typeSpeed: 40
+        // };
+
+        // var typed = new Typed('.element', options);
+        // var typed = new Typed('.element', {
+        //   // Waits 1000ms after typing "First"
+        //   strings: ['First ^1000 sentence.', 'Second sentence.']
+        // });
+
+
+        let options = {
+            strings: ['<i>Farrux</i> Eldor.', '&amp; a second sentence.'],
+            typeSpeed: 40
+        };
+
+        var typed = new Typed('.element', options);
+
+
+    </script>
+    <script src="./typed.js"></script>
+</body>
+
+</html>
